@@ -12,6 +12,7 @@ module.exports = {
 		assetModuleFilename: '[name][ext]',
 		clean: true,
 	},
+	devtool: 'source-map',
 	devServer: {
 		static: {
 			directory: path.resolve(__dirname, 'dist'),
@@ -36,7 +37,7 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: 'App Title',
+			title: 'ToDo App Name',
 			filename: 'index.html',
 			template: 'src/template.html',
 		}),

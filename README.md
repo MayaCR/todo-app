@@ -1,4 +1,4 @@
-# Digital Library
+# ToDo App
 
 ![Alt image information if image doesn't load](/Images/)
 
@@ -6,16 +6,16 @@ A brief but conciese description of the project, what the project is, what does 
 
 ## Programming Languages
 
--   What programming languages did you use?
+- What programming languages did you use?
 
 ## Challenges
 
--   What did you struggle with the most? Any repeat mistakes you may have made?
+- What did you struggle with the most? Any repeat mistakes you may have made?
 
 ## What I Learned\Practiced
 
--   List what processes you learned or practiced utilizing (data structures or algorithims, etc.)
+- List what processes you learned or practiced utilizing (data structures or algorithims, etc.)
 
 ## Takeaway
 
--   Talk about knowledge gained or how thought process has inproved, etc.
+- Talk about knowledge gained or how thought process has inproved, etc.
