@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
 	mode: 'development',
 	entry: {
-		bundle: path.resolve(__dirname, 'src/index.js'),
+		bundle: path.resolve(__dirname, 'src/main.js'),
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
@@ -26,7 +26,7 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.sass$/,
+				test: /\.(css|scss)$/,
 				use: ['style-loader', 'css-loader', 'sass-loader'],
 			},
 			{
@@ -37,7 +37,7 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: 'ToDo App Name',
+			title: 'App Name',
 			filename: 'index.html',
 			template: 'src/template.html',
 		}),
