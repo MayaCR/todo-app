@@ -12,7 +12,7 @@
 					<li><button id="inboxBtn" type="button">Inbox</button></li>
 					<li><button id="todayBtn" type="button">Today</button></li>
 					<li><button id="upcomingBtn" type="button">Upcoming</button></li>
-					<li>Projects<button id="projectBtn" type="button">+</button></li>
+					<li><button id="projectBtn" type="button">Projects +</button></li>
 					<ul id="project-list"></ul>
 				</ul>
 			</div>
@@ -20,20 +20,54 @@
 				<h1 id="header"></h1>
 				<div id="task-list-wrapper">
 					<ul id="task-list">
-						<li id="task">
-							<p id="task-title">Task Title</p>
-							<p id="task-description">
-								This is a small description about what the task is.
+						<li class="task">
+							<input
+								class="task-checkbox"
+								type="checkbox"
+								name="task-complete"
+							/>
+							<p class="task-title">New Task</p>
+							<p class="task-dueDate">August 12</p>
+							<p class="task-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor.
 							</p>
-							<p id="task-dueDate">Jun 5</p>
-							<p id="task-priority">Low</p>
-							<p id="task-project">None</p>
-							<button id="cancelBtn" class="btn" type="button">Cancel</button>
-							<button id="submitTaskBtn" class="btn">Add Task</button>
+							<p class="task-project">#project</p>
+						</li>
+						<li class="task">
+							<input
+								class="task-checkbox"
+								type="checkbox"
+								name="task-complete"
+							/>
+							<p class="task-title">
+								New Task<span class="task-priority-low"> ● </span>
+							</p>
+							<p class="task-dueDate"></p>
+							<p class="task-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+							<p class="task-project">#project</p>
+						</li>
+						<li class="task">
+							<input
+								class="task-checkbox"
+								type="checkbox"
+								name="task-complete"
+							/>
+							<p class="task-title">
+								New Task<span class="task-priority-high"> ● </span>
+							</p>
+							<p class="task-dueDate">August 12</p>
+							<p class="task-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							<p class="task-project"></p>
 						</li>
 					</ul>
+					<button id="addTaskBtn" type="button">+ Add Task</button>
 				</div>
-				<button id="addTaskBtn" class="btn" type="button">Create Task</button>
 			</div>
 		</div>
 	</body>
