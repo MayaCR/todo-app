@@ -80,10 +80,20 @@ ul {
   padding: 4px 0;
 }
 
+form {
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 20px;
+}
+form input {
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+}
+
 .btn {
   padding: 12px 24px;
   border-radius: 8px;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACC,SAAA;EACA,UAAA;EACA,SAAA;EACA,eAAA;EACA,aAAA;EACA,wBAAA;EACA,sBAAA;AACD;;AAEA;EACC,YAAA;EACA,aAAA;EACA,yCAAA;AACD;;AAEA;EACC,aAAA;AACD;;AAEA;EACC,eAAA;AACD;;AAEA;EACC,gBAAA;AACD;;AAEA;EACC,UAAA;EACA,YAAA;AACD;AACC;EACC,eAAA;EACA,cAAA;AACF;AAEC;EACC,6BAAA;AAAF;;AAIA;EACC,UAAA;EACA,YAAA;AADD;AAGC;EACC,eAAA;EACA,oBAAA;AADF;;AAMC;EACC,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,cAAA;AAHF;AAMC;EACC,cAAA;AAJF;;AAQA;EACC,kBAAA;EACA,kBAAA;AALD","sourcesContent":["* {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n\tbox-sizing: border-box;\n}\n\nbody {\n\twidth: 100vh;\n\theight: 100vw;\n\tfont-family: Arial, Helvetica, sans-serif;\n}\n\n.wrapper {\n\tdisplay: flex;\n}\n\nbutton {\n\tcursor: pointer;\n}\n\nul {\n\tlist-style: none;\n}\n\n#menu {\n\twidth: 35%;\n\tpadding: 10%;\n\n\tli {\n\t\tpadding: 10px 0;\n\t\tfont-size: 2em;\n\t}\n\n\tbutton {\n\t\tbackground-color: transparent;\n\t}\n}\n\n#main {\n\twidth: 65%;\n\tpadding: 10%;\n\n\th1 {\n\t\tfont-size: 8rem;\n\t\tmargin-bottom: 0.4em;\n\t}\n}\n\n#task-list {\n\tli {\n\t\tpadding: 12px;\n\t\tborder: 1px solid black;\n\t\tborder-radius: 12px;\n\t\tmargin: 10px 0;\n\t}\n\n\tp {\n\t\tpadding: 4px 0;\n\t}\n}\n\n.btn {\n\tpadding: 12px 24px;\n\tborder-radius: 8px;\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACC,SAAA;EACA,UAAA;EACA,SAAA;EACA,eAAA;EACA,aAAA;EACA,wBAAA;EACA,sBAAA;AACD;;AAEA;EACC,YAAA;EACA,aAAA;EACA,yCAAA;AACD;;AAEA;EACC,aAAA;AACD;;AAEA;EACC,eAAA;AACD;;AAEA;EACC,gBAAA;AACD;;AAEA;EACC,UAAA;EACA,YAAA;AACD;AACC;EACC,eAAA;EACA,cAAA;AACF;AAEC;EACC,6BAAA;AAAF;;AAIA;EACC,UAAA;EACA,YAAA;AADD;AAGC;EACC,eAAA;EACA,oBAAA;AADF;;AAMC;EACC,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,cAAA;AAHF;AAMC;EACC,cAAA;AAJF;;AAQA;EACC,uBAAA;EACA,mBAAA;EACA,aAAA;AALD;AAOC;EACC,8BAAA;EACA,cAAA;AALF;;AASA;EACC,kBAAA;EACA,kBAAA;AAND","sourcesContent":["* {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n\tbox-sizing: border-box;\n}\n\nbody {\n\twidth: 100vh;\n\theight: 100vw;\n\tfont-family: Arial, Helvetica, sans-serif;\n}\n\n.wrapper {\n\tdisplay: flex;\n}\n\nbutton {\n\tcursor: pointer;\n}\n\nul {\n\tlist-style: none;\n}\n\n#menu {\n\twidth: 35%;\n\tpadding: 10%;\n\n\tli {\n\t\tpadding: 10px 0;\n\t\tfont-size: 2em;\n\t}\n\n\tbutton {\n\t\tbackground-color: transparent;\n\t}\n}\n\n#main {\n\twidth: 65%;\n\tpadding: 10%;\n\n\th1 {\n\t\tfont-size: 8rem;\n\t\tmargin-bottom: 0.4em;\n\t}\n}\n\n#task-list {\n\tli {\n\t\tpadding: 12px;\n\t\tborder: 1px solid black;\n\t\tborder-radius: 12px;\n\t\tmargin: 10px 0;\n\t}\n\n\tp {\n\t\tpadding: 4px 0;\n\t}\n}\n\nform {\n\tborder: 1px solid black;\n\tborder-radius: 12px;\n\tpadding: 20px;\n\n\tinput {\n\t\tborder-bottom: 1px solid black;\n\t\tmargin: 10px 0;\n\t}\n}\n\n.btn {\n\tpadding: 12px 24px;\n\tborder-radius: 8px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -530,6 +540,41 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/modules/createTask.js":
+/*!***********************************!*\
+  !*** ./src/modules/createTask.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createTaskForm: () => (/* binding */ createTaskForm)
+/* harmony export */ });
+class Task {
+	constructor(
+		id,
+		name,
+		description,
+		dueDate = '',
+		priority = null,
+		project = null,
+	) {
+		this.id = id
+		this.name = name
+		this.description = description
+		this.dueDate = dueDate
+		this.priority = priority
+		this.project = project
+	}
+}
+
+function createTaskForm() {
+	console.log('Adding task')
+}
+
+
+/***/ }),
+
 /***/ "./src/modules/updateView.js":
 /*!***********************************!*\
   !*** ./src/modules/updateView.js ***!
@@ -542,24 +587,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   showToday: () => (/* binding */ showToday),
 /* harmony export */   showUpcoming: () => (/* binding */ showUpcoming)
 /* harmony export */ });
-const pageHeader = document.querySelector('#header')
+const header = document.querySelector('#header')
 
 function showInbox() {
-	const inboxBtn = document.querySelector('#inboxBtn')
-
-	return (pageHeader.textContent = inboxBtn.textContent)
+	return (header.textContent = 'Inbox')
 }
 
 function showToday() {
-	const todayBtn = document.querySelector('#todayBtn')
-
-	return (pageHeader.textContent = todayBtn.textContent)
+	return (header.textContent = 'Today')
 }
 
 function showUpcoming() {
-	const pageHeader = document.querySelector('#header')
-
-	return (pageHeader.textContent = upcomingBtn.textContent)
+	return (header.textContent = 'Upcoming')
 }
 
 
@@ -647,18 +686,22 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _modules_updateView__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/updateView */ "./src/modules/updateView.js");
+/* harmony import */ var _modules_createTask__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/createTask */ "./src/modules/createTask.js");
+
 
 
 
 const inboxBtn = document.querySelector('#inboxBtn')
 const todayBtn = document.querySelector('#todayBtn')
 const upcomingBtn = document.querySelector('#upcomingBtn')
+const addTaskBtn = document.querySelector('#addTaskBtn')
 
 ;(0,_modules_updateView__WEBPACK_IMPORTED_MODULE_1__.showInbox)()
 
 inboxBtn.addEventListener('click', _modules_updateView__WEBPACK_IMPORTED_MODULE_1__.showInbox)
 todayBtn.addEventListener('click', _modules_updateView__WEBPACK_IMPORTED_MODULE_1__.showToday)
 upcomingBtn.addEventListener('click', _modules_updateView__WEBPACK_IMPORTED_MODULE_1__.showUpcoming)
+addTaskBtn.addEventListener('click', _modules_createTask__WEBPACK_IMPORTED_MODULE_2__.createTaskForm)
 
 })();
 

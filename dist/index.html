@@ -19,19 +19,26 @@
 			<div id="main">
 				<h1 id="header"></h1>
 				<div id="task-list-wrapper">
-					<ul id="task-list">
-						<li id="task">
-							<p id="task-title">Task Title</p>
-							<p id="task-description">
-								This is a small description about what the task is.
-							</p>
-							<p id="task-dueDate">Jun 5</p>
-							<p id="task-priority">Low</p>
-							<p id="task-project">None</p>
-							<button id="cancelBtn" class="btn" type="button">Cancel</button>
-							<button id="submitTaskBtn" class="btn">Add Task</button>
-						</li>
-					</ul>
+					<ul id="task-list"></ul>
+					<form id="task-form" action="">
+						<input type="text" name="form-title" value="Task Name" />
+						<input type="text" name="form-description" value="Task Details" />
+						<label for="priority">Priority:</label>
+						<select name="priority" form="task-form">
+							<option value="low">Low</option>
+							<option value="medium">Medium</option>
+							<option value="high">High</option>
+						</select>
+						<label for="project">Project:</label>
+						<select name="project" form="task-form">
+							<option value="none">None</option>
+						</select>
+						<input type="date" name="form-date" value="" />
+						<div>
+							<button type="button" class="btn">Cancel</button>
+							<button type="submit" class="btn">Add Task</button>
+						</div>
+					</form>
 				</div>
 				<button id="addTaskBtn" class="btn" type="button">Create Task</button>
 			</div>
