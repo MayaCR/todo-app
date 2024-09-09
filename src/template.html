@@ -18,56 +18,19 @@
 			</div>
 			<div id="main">
 				<h1 id="header"></h1>
-				<div id="task-list-wrapper">
-					<ul id="task-list">
-						<li class="task">
-							<input
-								class="task-checkbox"
-								type="checkbox"
-								name="task-complete"
-							/>
-							<p class="task-title">New Task</p>
-							<p class="task-dueDate">August 12</p>
-							<p class="task-description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor.
-							</p>
-							<p class="task-project">#project</p>
-						</li>
-						<li class="task">
-							<input
-								class="task-checkbox"
-								type="checkbox"
-								name="task-complete"
-							/>
-							<p class="task-title">
-								New Task<span class=h
-							</p>
-							<p class="task-dueDate"></p>
-							<p class="task-description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-							<p class="task-project">#project</p>
-						</li>
-						<li class="task">
-							<input
-								class="task-checkbox"
-								type="checkbox"
-								name="task-complete"
-							/>
-							<p class="task-title">
-								New Task<span class="task-priority-high"> ● </span>
-							</p>
-							<p class="task-dueDate">August 12</p>
-							<p class="task-description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</p>
-							<p class="task-project"></p>
-						</li>
-					</ul>
-					<button id="addTaskBtn" type="button">+ Add Task</button>
+				<div id="list-wrapper">
+					<ul id="task-list"></ul>
 				</div>
+				<button id="addTaskBtn" type="button">+ Add Task</button>
+				<form action="">
+					<label for="task-title">Task Name</label>
+					<input
+						class="task-form-input"
+						type="text"
+						name="task-title"
+						value="Sample Title"
+					/>
+				</form>
 			</div>
 		</div>
 	</body>

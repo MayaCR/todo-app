@@ -1,16 +1,22 @@
 export function showInbox() {
-	updateHeader('Inbox')
+	updatePage('Inbox')
 }
 
 export function showToday() {
-	updateHeader('Today')
+	updatePage('Today')
 }
 
 export function showUpcoming() {
-	updateHeader('Upcoming')
+	updatePage('Upcoming')
 }
 
-function updateHeader(pageHeader) {
+function updatePage(pageHeader, pageSection = null) {
 	const header = document.querySelector('#header')
+	// const section = document.querySelector('#task-list-wrapper')
+
 	header.textContent = pageHeader
+	// section.textContent = ''
+	// pageSection !== null
+	// 	? section.appendChild(pageSection)
+	// 	: (section.textContent = '')
 }
